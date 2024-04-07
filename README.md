@@ -1,0 +1,2 @@
+# ZshConfig
+Configs defaults
