@@ -5,7 +5,7 @@ Configs defaults
 
 ## Install ZSH.
 ```
-sudo apt install zsh-autosuggestions zsh-syntax-highlighting zsh
+sudo pacman -S zsh or yay -S zsh
 ```
 
 ## Install Oh my ZSH.
