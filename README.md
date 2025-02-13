@@ -39,7 +39,20 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 	
  -  Replace that line with
 	`plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete)`
-	
+
+
+## Install powerlevel10k
+- Install fonts
+  
+  	`yay -S ttf-meslo-nerd-font-powerlevel10k`
+
+- Install theme
+
+ 	 `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k"`
+
+- Open `~/.zshrc`, find the line that sets `ZSH_THEME`, and change its value to `"powerlevel10k/powerlevel10k"`.
+ 
+    
 ## References
 
  - [Oh my ZSH](https://github.com/ohmyzsh/ohmyzsh)
@@ -47,3 +60,4 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
  - [zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
  - [zsh-fast-syntax-highlighting](https://github.com/zdharma/fast-syntax-highlighting)
  - [zsh-autocomplete](https://github.com/marlonrichert/zsh-autocomplete)
+ - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
